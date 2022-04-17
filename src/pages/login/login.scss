@@ -1,0 +1,80 @@
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(roman-davydko-g0tBUdfNp54-unsplash.jpg);
+    background-size: cover;
+}
+.loginform {
+  padding: 10px 10px;
+  margin: 10px 10px;
+  width : 360px;
+  // width: 50%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(30,39,39,0.7);
+  box-shadow: 0 5px 30px black;
+}
+.btn button{
+  padding: 5px;
+  // margin: 30px 0px 40px 30px;
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  left:110px;
+}
+
+.linput{
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 2px solid white;
+  color : white;
+  font-weight: bold;;
+  background: transparent;
+  padding: 5px 10px;
+  font-size: 105%;
+}
+
+.lgin{
+  font-size: 102%;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background: #0563b4;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  left:100px;
+}
+.linput:focus{
+  outline: none;
+  border-bottom: 2px solid rgb(149,241,149);
+  font-size: 17px;
+  font-weight: bold;
+}
+.lgin:hover{
+  background-color: #033c6d;
+}
+
+.loginerr{
+  font-size: 14px;
+  color: red;
+  margin-top: 10px;
+  position: relative;
+  left: 80px;
+}
+.register{
+  color:white;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
